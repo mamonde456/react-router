@@ -6,5 +6,5 @@ interface Props {
 }
 
 export default function Route({ path, components }: Props) {
-  return <>{path === window.location.pathname ? components : null}</>;
+  // return <>{path === window.location.pathname ? components : null}</>;
 }
